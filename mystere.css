@@ -1,0 +1,57 @@
+:root{
+    --couleur-4:#333533;
+    --couleur-3: #242423;
+    --couleur-2:#f5cb5c;
+    --couleur-1:  #E8EDDF;
+    --couleur-0: #cfdbd5;
+  
+}
+
+body{
+    min-height: 80px;
+    
+}
+
+
+.mystere {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--couleur-4);
+    margin: 6rem 6rem 6rem 6rem;
+    border:var(--couleur-3);
+    color:white;
+    border-radius: 8px;
+
+}
+
+.mystere h1{
+    color: white;
+    text-decoration: underline;
+    
+}
+
+.mystere button {
+    
+    width: auto;
+    border: none;
+    min-width: 160px;
+    font-size: 2rem;
+    border-radius: 8px;
+    background:white;
+    color: var(--couleur-3)
+}
+
+.mystere button:hover{
+    cursor: pointer;
+    background: var(--couleur-2);
+    color: var(--couleur-3);
+}
+
+.mystere input{
+    width: 40px ;
+    height: 40px;
+    text-align: center;
+    font-size: 1.5rem;
+}
